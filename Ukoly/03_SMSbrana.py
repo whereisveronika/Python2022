@@ -53,4 +53,3 @@ if phone_number(number):
   print(message(txt))
 else:
   print(f'Zadali jste neexistujici cislo nebo spatnou predvolbu.')
-
