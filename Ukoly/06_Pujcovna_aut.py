@@ -30,4 +30,5 @@ auta = [auto.replace(",", ".") for auto in auta]
 auta = [auto.split() for auto in auta]
 auta = [[auto[0], round(float(auto[1])*1000, 0)] for auto in auta]
 auta = [sum([auto[1]]) for auto in auta]
+
 print(f'Dohromady auta najela {sum(auta)} kilometru.')
